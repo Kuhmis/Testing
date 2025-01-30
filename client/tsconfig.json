@@ -1,0 +1,9 @@
+{
+    "extends": "./node_modules/react-scripts/tsconfig.json",
+    "compilerOptions": {
+      "strict": true,
+      "typeRoots": ["./node_modules/@types", "./src/types"]
+    },
+    "include": ["src"]
+  }
+  
